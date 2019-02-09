@@ -1,26 +1,6 @@
-/* Website Template by freewebsitetemplates.com */
-@font-face {
-	font-family: 'poller_oneregular';
-	src: url('../fonts/pollerone/pollerone-webfont.eot');
-	src: url('../fonts/pollerone/pollerone-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/pollerone/pollerone-webfont.woff') format('woff'),
-		 url('../fonts/pollerone/pollerone-webfont.ttf') format('truetype'),
-		 url('../fonts/pollerone/pollerone-webfont.svg#poller_oneregular') format('svg');
-}
-@font-face {
-	font-family: 'leckerli_oneregular';
-	src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot');
-	src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/leckerlione/leckerlione-regular-webfont.woff') format('woff'),
-		 url('../fonts/leckerlione/leckerlione-regular-webfont.ttf') format('truetype'),
-		 url('../fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');
-}
+
 
 body {
-	/* background-image: url('../images/background.jpg.png');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	 background: #fff; */
 	font-family: "Segoe UI Light", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
@@ -28,7 +8,6 @@ body {
 	margin: 0;
 	min-width: 960px;
 	padding: 0;
-	/* background-image: url('../images/background.jpg'); */
 }
 
 #header {
@@ -36,8 +15,6 @@ body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 240px;
-
-	/* background-image: url('../images/background.jpg'); */
 }
 
 p {
@@ -134,7 +111,7 @@ p a:hover {
 #body {
 	margin: 0;
 	
-	text-align: justify; /* changed from center */
+	text-align: justify; 
 	background-color: #fff;
 	opacity: 0.9;
 	
@@ -142,7 +119,7 @@ p a:hover {
 #body h1 {
 	color: #fff;
 	display: inline;
-	font-family: "segoe ui light","Arial Black"; /* was poller_oneregular */
+	font-family: "segoe ui light","Arial Black"; 
 	font-size: 25px;
 	font-weight: normal;
 	margin: 0;
