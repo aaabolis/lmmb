@@ -14,7 +14,9 @@ body {
 	background-image: url('../images/lmmbheader_web.jpg');
 	background-size: 100%;
 	background-repeat: no-repeat;
-	height: 240px;
+	height: 10%;
+	position: relative;
+	width: 100%;
 }
 
 p {
