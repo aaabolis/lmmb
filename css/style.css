@@ -17,10 +17,10 @@
 }
 
 body {
-	background-image: url('../images/background.jpg.png');
+	/* background-image: url('../images/background.jpg.png');
 	background-size: 100%;
 	background-repeat: no-repeat;
-	/* background: #fff; */
+	 background: #fff; */
 	font-family: "Segoe UI Light", Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
@@ -30,6 +30,16 @@ body {
 	padding: 0;
 	/* background-image: url('../images/background.jpg'); */
 }
+
+#header {
+	background-image: url('../images/lmmbheader_web.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 240px;
+
+	/* background-image: url('../images/background.jpg'); */
+}
+
 p {
 	color: #252525;
 	line-height: 24px;
@@ -47,7 +57,7 @@ p a:hover {
 
 .logo img{
 	text-align: left;
-	height: 150px;
+	height: 240px; 
 }
 
 #navigation ul {
@@ -75,6 +85,45 @@ p a:hover {
 
 }
 
+#navigation_start ul {
+	margin: 0;
+	padding: 20px 0 0;
+}
+#navigation_start ul li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0 19px;
+}
+
+#navigation_start ul li a{
+
+	color: #252525;
+	display: inline-block;
+	font-family: "segoe ui light", "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+#navigation_start ul li a{
+
+	color: #252525;
+	display: inline-block;
+	font-family: "segoe ui light", "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
 #navigation ul li.selected a {
 	font-weight: 900;
 	text-transform: uppercase;
@@ -84,7 +133,7 @@ p a:hover {
 
 #body {
 	margin: 0;
-	margin: 0 15% 0 15%;
+	
 	text-align: justify; /* changed from center */
 	background-color: #fff;
 	opacity: 0.9;
@@ -104,6 +153,8 @@ p a:hover {
 	background: #252525;
 	display: inline-block;
 	padding: 15px 28px 12px;
+	width: 350px;
+	text-align: center;
 }
 #body > div {
 	margin: 0 auto;
